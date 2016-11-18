@@ -1,0 +1,34 @@
+
+ul{
+list-style: none;
+list-style-image:
+
+
+}
+
+.images{
+  max-width: 90%;
+}
+
+
+@media screen and (max-width:600px){
+
+    ul{
+
+
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 600px){
+  ul{
+
+    -webkit-column-count: 2;
+
+
+  }
+}
+@media screen and (min-width: 1200px){
+  ul{
+    -webkit-column-count: 4;
+
+  }
+}
